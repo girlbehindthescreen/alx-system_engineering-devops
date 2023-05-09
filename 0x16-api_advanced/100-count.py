@@ -13,7 +13,7 @@ def count_words(subreddit, word_list, after='', word_dict={}):
     If no posts match or the subreddit is invalid, it prints nothing.
     """
 
-    f not word_dict:
+    if not word_dict:
         for word in word_list:
             if word.lower() not in word_dict:
                 word_dict[word.lower()] = 0
