@@ -4,5 +4,5 @@ Host *
     HashKnownHosts yes
     GSSAPIAuthentication yes
     GSSAPIDelegateCredentials no
-    IdentityFile ~/.ssh/id_rsa.pub.pub
+    IdentityFile ~/.ssh/school.pub
     PasswordAuthentication no
